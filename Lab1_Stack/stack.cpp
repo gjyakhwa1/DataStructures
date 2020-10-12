@@ -336,25 +336,25 @@ bool balanced_parenthesis(std::string expr)
 // }
 
 //infix to postfix
-// int main()
-// {
-//   std::string a;
-// std::cout<<"Enter infix string >>";
-// std::cin>>a;
-// std::string pf;
-// pf=infix_to_postfix(a);
-// std::cout<<pf;
-// return 0;
-// }
-
-// evaluation of postfix string
 int main()
 {
-  std::string text;
-  text="6,2,3,+,-,3,8,2,/,+,*,2,^,3,+";
-  evaluate_postfix(text);
+  std::string a;
+std::cout<<"Enter infix string >>";
+std::cin>>a;
+std::string pf;
+pf=infix_to_postfix(a);
+std::cout<<pf;
 return 0;
 }
+
+// evaluation of postfix string
+// int main()
+// {
+//   std::string text;
+//   text="2,3,+,10,*,5,2,4,6,-,*,+";
+//   evaluate_postfix(text);
+// return 0;
+// }
 
 //Infix to prefix
 // int main()
